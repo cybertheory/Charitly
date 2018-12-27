@@ -2,14 +2,21 @@
 <head>
 </head>
 <body>
-    <script type="text/javascript">
+<script type="text/javascript">
+        function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
 amzn_assoc_placement = "adunit0";
 amzn_assoc_tracking_id = "charitly-20";
 amzn_assoc_ad_mode = "search";
 amzn_assoc_ad_type = "smart";
 amzn_assoc_marketplace = "amazon";
 amzn_assoc_region = "US";
-amzn_assoc_default_search_phrase = "Apple Watches";
+amzn_assoc_default_search_phrase = getUrlVars()["phrase"];
 amzn_assoc_default_category = "All";
 amzn_assoc_linkid = "48c242f43116b4bcff686b11ea2396be";
 amzn_assoc_search_bar = "true";
