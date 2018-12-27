@@ -8,8 +8,10 @@ Our Charitly Search Bars usually spawn in the Google Search Bar for Youtube Sear
 We Donate to all Charities! Find Some [Here](https://www.charitynavigator.org/)
 
 The Charitly Youtube Quicksearch (That's what we call 'em) in the Google Search Bar!
+
 ![image1](ytsearch.PNG)
 
 The Charitly Amazon Quicksearch in a Google knowledge panel displaying Apple Watches!
+
 ![image2](amazonqs.PNG)
 
